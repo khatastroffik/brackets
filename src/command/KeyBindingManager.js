@@ -1455,7 +1455,8 @@ define(function (require, exports, module) {
     exports.getKeyBindings = getKeyBindings;
     exports.addGlobalKeydownHook = addGlobalKeydownHook;
     exports.removeGlobalKeydownHook = removeGlobalKeydownHook;
-
+    exports.normalizeKeyDescriptorString = normalizeKeyDescriptorString;
+    
     /**
      * Use windows-specific bindings if no other are found (e.g. Linux).
      * Core Brackets modules that use key bindings should always define at
