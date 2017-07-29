@@ -7,3 +7,4 @@ production_url: http://brackets.io
 author:
   name: Adam Lehman
   email: info@brackets.io
+theme: jekyll-theme-cayman
